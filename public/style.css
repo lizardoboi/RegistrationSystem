@@ -1,0 +1,69 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+    background-color: #4da6ff;
+    font-size: 50px
+}
+
+#container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px
+}
+
+form {
+    margin-bottom: 20px;
+    font-size: 50px
+}
+
+label {
+    font-size: 50px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 25px;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 50px;
+}
+select, button {
+    font-size: 100px;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    color: #4da6ff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+button {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #6ab9b9;
+    color: white;
+    border-radius: 25px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 50px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 100px;
+}
